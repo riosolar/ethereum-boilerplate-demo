@@ -93,6 +93,7 @@ const App = ({ isServerInfo }) => {
   const [collapsed, setCollapsed] = useState(false);
 
   return (
+    /* eslint-disable no-unused-vars */
     <Layout style={{ height: '100%', overflow: "auto" }}>
       <Router>
         <Layout>
@@ -144,6 +145,8 @@ const App = ({ isServerInfo }) => {
       </Router>
     </Layout>
   );
+  /* eslint-disable no-unused-vars */
+
 };
 
 export const Logo = () => (
