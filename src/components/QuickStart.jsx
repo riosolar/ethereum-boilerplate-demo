@@ -68,7 +68,6 @@ export default function QuickStart() {
   }, []);
 
 
-
   const onChange = (e) => {
     console.log('radio checked', e.target.value);
     setStakeStauts(e.target.value);
@@ -191,7 +190,7 @@ export default function QuickStart() {
             <div style={{ display: 'grid', textAlign: 'center' }}>
               <h2 style={{ color: "#338abe", fontWeight: 'bold' }}>STAKING AND REWARDS</h2>
               <h3 style={{ color: "white", fontWeight: '500' }}>
-                What rewards can I earn if I hold EVT? </h3>
+                What rewards can I earn if I hold EVT -? </h3>
             </div>
             <div style={{ display: 'flex', columnGap:'10px', marginTop:'20px' }}>
               <div><h3 style={{color:'#2566A9', fontWeight:'bold'}}>DOGECOIN</h3></div>
